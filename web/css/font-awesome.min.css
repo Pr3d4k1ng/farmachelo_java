@@ -1,0 +1,157 @@
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+ .fa,
+ .fas,
+ .far,
+ .fal,
+ .fad,
+ .fab {
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+   display: inline-block;
+   font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   line-height: 1;
+ }
+ 
+ /* Tamaños */
+ .fa-xs { font-size: .75em; }
+ .fa-sm { font-size: .875em; }
+ .fa-lg { font-size: 1.33333em; line-height: 0.75em; vertical-align: -.0667em; }
+ .fa-xl { font-size: 1.5em; line-height: 0.6666em; vertical-align: -.075em; }
+ .fa-2x { font-size: 2em; }
+ .fa-3x { font-size: 3em; }
+ .fa-4x { font-size: 4em; }
+ .fa-5x { font-size: 5em; }
+ .fa-6x { font-size: 6em; }
+ .fa-7x { font-size: 7em; }
+ .fa-8x { font-size: 8em; }
+ .fa-9x { font-size: 9em; }
+ .fa-10x { font-size: 10em; }
+ 
+ /* Iconos principales que necesitas */
+ .fa-shopping-cart:before { content: "\f07a"; }
+ .fa-map-marker:before { content: "\f041"; }
+ .fa-phone:before { content: "\f095"; }
+ .fa-envelope:before { content: "\f0e0"; }
+ .fa-check:before { content: "\f00c"; }
+ .fa-user:before { content: "\f007"; }
+ .fa-pencil:before { content: "\f303"; }
+ .fa-facebook:before { content: "\f09a"; }
+ .fa-twitter:before { content: "\f099"; }
+ .fa-google-plus:before { content: "\f0d5"; }
+ .fa-linkedin:before { content: "\f08c"; }
+ .fa-wifi:before { content: "\f1eb"; }
+ .fa-cart-arrow-down:before { content: "\f218"; }
+ .fa-angle-right:before { content: "\f105"; }
+ .fa-circle:before { content: "\f111"; }
+ .fa-search:before { content: "\f002"; }
+ .fa-home:before { content: "\f015"; }
+ .fa-bars:before { content: "\f0c9"; }
+ .fa-times:before { content: "\f00d"; }
+ .fa-heart:before { content: "\f004"; }
+ .fa-star:before { content: "\f005"; }
+ .fa-star-half-alt:before { content: "\f5c0"; }
+ .fa-chevron-left:before { content: "\f053"; }
+ .fa-chevron-right:before { content: "\f054"; }
+ .fa-plus:before { content: "\f067"; }
+ .fa-minus:before { content: "\f068"; }
+ .fa-trash:before { content: "\f1f8"; }
+ .fa-exclamation-circle:before { content: "\f06a"; }
+ .fa-info-circle:before { content: "\f05a"; }
+ .fa-check-circle:before { content: "\f058"; }
+ .fa-arrow-left:before { content: "\f060"; }
+ .fa-arrow-right:before { content: "\f061"; }
+ .fa-sync-alt:before { content: "\f2f1"; }
+ .fa-shopping-bag:before { content: "\f290"; }
+ .fa-credit-card:before { content: "\f09d"; }
+ .fa-truck:before { content: "\f0d1"; }
+ .fa-headset:before { content: "\f590"; }
+ .fa-shield-alt:before { content: "\f3ed"; }
+ 
+ /* Animaciones */
+ .fa-spin {
+   animation: fa-spin 2s infinite linear;
+ }
+ 
+ @keyframes fa-spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+ }
+ 
+ /* Fuentes */
+ @font-face {
+   font-family: 'Font Awesome 5 Free';
+   font-style: normal;
+   font-weight: 400;
+   font-display: block;
+   src: url("../webfonts/fa-regular-400.eot");
+   src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+        url("../webfonts/fa-regular-400.woff2") format("woff2"),
+        url("../webfonts/fa-regular-400.woff") format("woff"),
+        url("../webfonts/fa-regular-400.ttf") format("truetype"),
+        url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+ }
+ 
+ @font-face {
+   font-family: 'Font Awesome 5 Free';
+   font-style: normal;
+   font-weight: 900;
+   font-display: block;
+   src: url("../webfonts/fa-solid-900.eot");
+   src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+        url("../webfonts/fa-solid-900.woff2") format("woff2"),
+        url("../webfonts/fa-solid-900.woff") format("woff"),
+        url("../webfonts/fa-solid-900.ttf") format("truetype"),
+        url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+ }
+ 
+ .fa,
+ .fas {
+   font-family: 'Font Awesome 5 Free';
+   font-weight: 900;
+ }
+ 
+ .far {
+   font-family: 'Font Awesome 5 Free';
+   font-weight: 400;
+ }
+ 
+ /* Marcas */
+ .fab {
+   font-family: 'Font Awesome 5 Brands';
+   font-weight: 400;
+ }
+ 
+ /* Stacking */
+ .fa-stack {
+   display: inline-block;
+   height: 2em;
+   line-height: 2em;
+   position: relative;
+   vertical-align: middle;
+   width: 2em;
+ }
+ 
+ .fa-stack-1x,
+ .fa-stack-2x {
+   left: 0;
+   position: absolute;
+   text-align: center;
+   width: 100%;
+ }
+ 
+ .fa-stack-1x {
+   line-height: inherit;
+ }
+ 
+ .fa-stack-2x {
+   font-size: 2em;
+ }
+ 
+ .fa-inverse {
+   color: #fff;
+ }
